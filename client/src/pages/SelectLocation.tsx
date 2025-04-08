@@ -5,7 +5,7 @@ import { queryClient } from "@/lib/queryClient";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { FloorConfig } from "@shared/schema";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/UI/button";
 
 export default function SelectLocation() {
   const [location, navigate] = useLocation();
